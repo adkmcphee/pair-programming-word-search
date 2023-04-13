@@ -69,7 +69,7 @@ describe("#wordSearch()", function() {
     assert.isFalse(result);
   });
 
-  it("should return ____ if empty array", function() {
+  it("should return false if empty array", function() {
     const result = wordSearch([[]], false);
 
     assert.isFalse(result);
